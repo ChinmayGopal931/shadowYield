@@ -1,0 +1,96 @@
+@import url('/fonts/gotham.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 240 10% 4%;
+    --foreground: 240 5% 96%;
+    --card: 240 10% 7%;
+    --card-foreground: 240 5% 96%;
+    --popover: 240 10% 7%;
+    --popover-foreground: 240 5% 96%;
+    --primary: 263 70% 60%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 239 84% 67%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 240 4% 16%;
+    --muted-foreground: 240 5% 65%;
+    --accent: 263 70% 60%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 240 4% 18%;
+    --input: 240 4% 18%;
+    --ring: 263 70% 60%;
+    --radius: 0.5rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased font-light;
+    background: linear-gradient(180deg, #0a0a0f 0%, #12121a 100%);
+    min-height: 100vh;
+  }
+}
+
+@layer components {
+  .card-glow {
+    @apply relative overflow-hidden;
+  }
+
+  .card-glow::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    padding: 1px;
+    background: linear-gradient(135deg, rgba(139, 92, 246, 0.3), transparent 50%);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+  }
+
+  .privacy-badge {
+    @apply inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full text-xs font-light tracking-wide;
+    @apply bg-privacy-encrypted/10 text-privacy-encrypted border border-privacy-encrypted/20;
+  }
+
+  .warning-badge {
+    @apply inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full text-xs font-light tracking-wide;
+    @apply bg-privacy-warning/10 text-privacy-warning border border-privacy-warning/20;
+  }
+}
+
+/* Wallet adapter styles override */
+.wallet-adapter-button {
+  @apply bg-accent hover:bg-accent/80 !important;
+}
+
+.wallet-adapter-modal-wrapper {
+  @apply bg-background-card !important;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-background;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-border rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-foreground-muted;
+}

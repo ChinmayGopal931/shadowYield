@@ -1,0 +1,43 @@
+{
+  "uploadedAt": "2026-01-28T21:30:34.613Z",
+  "version": "v5",
+  "gateway": "https://gateway.pinata.cloud/ipfs/",
+  "description": "v5 circuits - separated encrypted password from plaintext amount",
+  "circuits": {
+    "init_pool_state": {
+      "ipfsHash": "bafkreig7wc7tesauxb2hbrr5ypbej7z3yoblrzm6iziuvxnybmlz7oidbq",
+      "url": "https://gateway.pinata.cloud/ipfs/bafkreig7wc7tesauxb2hbrr5ypbej7z3yoblrzm6iziuvxnybmlz7oidbq",
+      "size": "163KB"
+    },
+    "process_deposit": {
+      "ipfsHash": "bafybeigw3az26fvgrr6jlgjxkcbbfx26i2tsqwp3m3clmfzcxphlytgf34",
+      "url": "https://gateway.pinata.cloud/ipfs/bafybeigw3az26fvgrr6jlgjxkcbbfx26i2tsqwp3m3clmfzcxphlytgf34",
+      "size": "1747KB"
+    },
+    "check_investment_needed": {
+      "ipfsHash": "bafkreickglqz4lr4p5dihj55iobzbmkedqcdxkjlffeu7xwi75t7lf4pl4",
+      "url": "https://gateway.pinata.cloud/ipfs/bafkreickglqz4lr4p5dihj55iobzbmkedqcdxkjlffeu7xwi75t7lf4pl4",
+      "size": "162KB"
+    },
+    "record_investment": {
+      "ipfsHash": "bafybeiaznsrclf6sy6e2iiwwnubmzx57tdysu3syvpbm2nsa2zsdj2uljq",
+      "url": "https://gateway.pinata.cloud/ipfs/bafybeiaznsrclf6sy6e2iiwwnubmzx57tdysu3syvpbm2nsa2zsdj2uljq",
+      "size": "1002KB"
+    },
+    "record_yield": {
+      "ipfsHash": "bafybeia3up67csa37rbv3fxzgk3zpcja6ow2la5kb6jo43qancffgn5k54",
+      "url": "https://gateway.pinata.cloud/ipfs/bafybeia3up67csa37rbv3fxzgk3zpcja6ow2la5kb6jo43qancffgn5k54",
+      "size": "4499KB"
+    },
+    "authorize_withdrawal": {
+      "ipfsHash": "bafybeidkmrkn4r6mgwquuwqkhxbw66nzu6y2vgojbqpyan5ln7nhcohv2q",
+      "url": "https://gateway.pinata.cloud/ipfs/bafybeidkmrkn4r6mgwquuwqkhxbw66nzu6y2vgojbqpyan5ln7nhcohv2q",
+      "size": "2631KB"
+    },
+    "process_withdrawal": {
+      "ipfsHash": "bafybeihqlyozdkqbwv7vy2cfdkzdtqb4yxwf4jtzoucjkof3pabzbh36c4",
+      "url": "https://gateway.pinata.cloud/ipfs/bafybeihqlyozdkqbwv7vy2cfdkzdtqb4yxwf4jtzoucjkof3pabzbh36c4",
+      "size": "2213KB"
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "clusterOffset": 456,
+  "compDefOffsets": {
+    "initPool": 100,
+    "deposit": 101,
+    "checkInvestment": 102,
+    "recordInvestment": 103,
+    "recordYield": 104,
+    "authorizeWithdrawal": 105,
+    "processWithdrawal": 106
+  },
+  "results": [
+    {
+      "name": "initPoolCompDef",
+      "offset": 100,
+      "address": "ijNSxrcvDEo1Zr5Y8SjuxikdqMLB2rX6NgVbrVB6BXD",
+      "txSignature": "",
+      "success": false
+    },
+    {
+      "name": "initDepositCompDef",
+      "offset": 101,
+      "address": "hsDv4xmoXLVCPdkXjVx8MRJiPvg61CQipowJZnKjMSr",
+      "txSignature": "",
+      "success": false
+    },
+    {
+      "name": "initCheckInvestmentNeededCompDef",
+      "offset": 102,
+      "address": "CWivBrhqg5d7mZVxtdLFiGaMKJMZZw6rddcCAkcJhxg2",
+      "txSignature": "",
+      "success": false
+    },
+    {
+      "name": "initRecordInvestmentCompDef",
+      "offset": 103,
+      "address": "7kcuYDwgYJdSdRXeUYYp7Mf9oGNWpTiSvxKy46KddmXE",
+      "txSignature": "",
+      "success": false
+    },
+    {
+      "name": "initRecordYieldCompDef",
+      "offset": 104,
+      "address": "6LcVRakf3uT9s1KantmfSZX9d4y5Suzf9A9BtC3VR12E",
+      "txSignature": "",
+      "success": false
+    },
+    {
+      "name": "initAuthorizeWithdrawalCompDef",
+      "offset": 105,
+      "address": "9dJBkuGkhLiuofMeeuYY3chhLzKXfnYT7MYkZGGNe1jt",
+      "txSignature": "",
+      "success": false
+    },
+    {
+      "name": "initProcessWithdrawalCompDef",
+      "offset": 106,
+      "address": "DDgCWq9CiVWcncmhiYyspPqGyTPvCwQfZvH8r1Bjx1nf",
+      "txSignature": "",
+      "success": false
+    }
+  ]
+}

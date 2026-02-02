@@ -1,0 +1,24 @@
+[toolchain]
+package_manager = "yarn"
+
+[features]
+resolution = true
+skip-lint = false
+
+[programs.devnet]
+ghost_pool = "JDCZqN5FRigifouF9PsNMQRt3MxdsVTqYcbaHxS9Y3D3"
+mock_kamino = "B4HMWFxLVtCiv9cxbsqRo77LGdcZa6P1tt8YcmEWNwC2"
+
+[programs.localnet]
+ghost_pool = "GhostKHhVsxFgpJshj7tMq1bsf8cP34QhZ7jX9aVyEk"
+mock_kamino = "B4HMWFxLVtCiv9cxbsqRo77LGdcZa6P1tt8YcmEWNwC2"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "https://devnet.helius-rpc.com/?api-key=a9002ef8-4f2b-45ea-b7b0-40af9f1bd54f"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 \"tests/**/*.ts\""
