@@ -1,4 +1,4 @@
-# Ghost Pool
+# Shawdow Yield - https://youtu.be/IUGF6dpyz-Q
 
 Privacy-preserving yield protocol powered by Arcium MPC. Deposit from any wallet, withdraw to any wallet using only a cryptographic secret.
 
